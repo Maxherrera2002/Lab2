@@ -41,5 +41,6 @@ public class Checking_account extends Account{
         System.out.println("Saldo de la cuenta: "+this.getBalance());
         System.out.println("Comision mensual: "+this.getMonthly_fee());
         System.out.println("Numero de transacciones: "+this.getNumber_of_deposit()+this.getNumber_of_withdrawals());
+        System.out.println("El sobregiro: "+this.overdraft);
     }
 }
